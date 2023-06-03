@@ -1,0 +1,22 @@
+Stack<Data-Structure> stack_name = new Stack<>();
+
+LIFO -> Last in First out
+FILO -> FIRST IN LAST OUT
+
+Three operationc on Stack 
+Push(int) => insert ele at top =>  O(1)
+Pop(void) => delete ele at top =>  O(1)
+Peek(void) => return top ele   =>  O(1)
+
+cant access ele directly
+
+jb tk uper wala ele nhi hatega tn tk niche wala nhi access hoga
+
+size increse/decrese at run time
+
+
+Get the ele   TC    SC
+Array         O(1)  O(1)      directly access ele                   size fixed
+LL            O(n)  O(1)      one by one access ele                  variable size   
+stack         O(n)  O(n)      first pop top ele and store other     variable size 
+                              spac the access ele so SC O(n)        

@@ -20,3 +20,17 @@ Array         O(1)  O(1)      directly access ele                   size fixed
 LL            O(n)  O(1)      one by one access ele                  variable size   
 stack         O(n)  O(n)      first pop top ele and store other     variable size 
                               spac the access ele so SC O(n)        
+
+
+Display stack recursivly
+
+Reverse Stack
+1=> Iteratively
+2=> Recursively
+
+UnderFlow 
+ --->   if Stack is empty then pop() and peek() not possible give EmptyStackExeption
+
+ OverFlow 
+ --->   if  if Stack is full then push() not possible gives error  
+        but Stack overflow generally occurs when memory is full because stack is variable size produce

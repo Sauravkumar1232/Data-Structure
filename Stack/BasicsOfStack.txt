@@ -34,3 +34,18 @@ UnderFlow
  OverFlow 
  --->   if  if Stack is full then push() not possible gives error  
         but Stack overflow generally occurs when memory is full because stack is variable size produce
+
+
+Array Implementation of Stack
+OOPS Mendetory
+Class Stack{
+       create array fixed length
+       void push(){}
+       int pop(){}
+       int peek(){}
+       int size(){}
+       boolean isEmpty(){}
+       boolean isFull(){}
+       int capacity(){return arr.length}
+       
+}        
